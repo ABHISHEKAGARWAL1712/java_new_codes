@@ -5,11 +5,11 @@ public class program57 {
         System.out.println("Enter the number of elements in the array: ");
         int n = sc.nextInt();
         int []arr = new int[n];
-        int sum = 0;
         for(int i=0; i<n; i++){
             System.out.println("Enter the element of the array");
             arr[i] = sc.nextInt();
         }
+        int sum = 0;
         for(int i=0; i<n; i++){
             int value = arr[i];
             sum = sum + value;
