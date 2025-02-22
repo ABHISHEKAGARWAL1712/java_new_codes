@@ -51,7 +51,7 @@ public class program75 {
             }
         }
         for(int i=0; i<arr.length; i++){   //reverting the array to its original form
-            arr[i] = arr[i] + i;
+            arr[i] = arr[i] +  i;
         }
         return max - min;
         
